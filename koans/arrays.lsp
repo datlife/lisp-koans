@@ -54,7 +54,6 @@
   )
 )
 
-
 (define-test test-adjustable-array
     "one may build arrays that can change size"
   (let ((x (make-array '(2 2) :initial-element 5 :adjustable t)))
